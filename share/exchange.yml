@@ -1152,6 +1152,99 @@ RANDOM_NOCTURNE:
   symbol: RANDOM_NOCTURNE
   trading_days: everyday
   trading_timezone: UTC
+RSI_CRYPTO:
+  delay_amount: '0'
+  display_name: RSI Crypto
+  market_times:
+    partial_trading: {}
+    standard:
+      daily_open: 0s
+      daily_close: 23h59m59s
+      daily_settlement: 23h59m59s
+  symbol: RSI_CRYPTO
+  trading_days: everyday
+  trading_timezone: UTC
+RSI_FOREX_EURUSD:
+  currency: USD
+  delay_amount: '0'
+  display_name: RSI Forex EURUSD
+  market_times:
+    partial_trading:
+      standard_open: 21h35m
+      standard_close: 23h59m59s
+    standard:
+      daily_open: 0s
+      daily_close: 23h59m59s
+      daily_settlement: 23h59m59s
+    # Trading breaks for Monday-Thursday
+    trading_breaks:
+    - - 21h00m
+      - 21h05m
+  symbol: RSI_FOREX_EURUSD
+  trading_days: sun_thru_fri
+  trading_timezone: UTC
+RSI_FOREX_GBPUSD:
+  currency: USD
+  delay_amount: '0'
+  display_name: RSI Forex GBPUSD
+  market_times:
+    partial_trading:
+      standard_open: 21h35m
+      standard_close: 23h59m59s
+    standard:
+      daily_open: 0s
+      daily_close: 23h59m59s
+      daily_settlement: 23h59m59s
+    # Trading breaks for Monday-Thursday
+    trading_breaks:
+    - - 21h00m
+      - 21h05m
+  symbol: RSI_FOREX_GBPUSD
+  trading_days: sun_thru_fri
+  trading_timezone: UTC
+RSI_FOREX_USDJPY:
+  currency: USD
+  delay_amount: '0'
+  display_name: RSI Forex USDJPY
+  market_times:
+    partial_trading:
+      standard_open: 22h05m
+      standard_close: 23h59m59s
+    standard:
+      daily_open: 0s
+      daily_close: 23h59m59s
+      daily_settlement: 23h59m59s
+    # Trading breaks for Monday-Thursday
+    trading_breaks:
+    - - 21h00m
+      - 21h05m
+  symbol: RSI_FOREX_USDJPY
+  trading_days: sun_thru_fri
+  trading_timezone: UTC
+RSI_METAL:
+  delay_amount: '0'
+  display_name: RSI Metal
+  market_times:
+    dst:
+      daily_open: 0s
+      daily_close: 23h59m59s
+      daily_settlement: 23h59m59s
+      trading_breaks:
+      - - 20h
+        - 22h
+    partial_trading:
+      standard_open: 23h05m
+      standard_close: 23h59m59s
+    standard:
+      daily_open: 0s
+      daily_close: 23h59m59s
+      daily_settlement: 23h59m59s
+      trading_breaks:
+      - - 21h
+        - 23h
+  symbol: RSI_METAL
+  trading_days: sun_thru_fri
+  trading_timezone: America/New_York
 RTS:
   currency: USD
   delay_amount: '15'
