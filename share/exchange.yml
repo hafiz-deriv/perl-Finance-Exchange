@@ -1169,58 +1169,82 @@ RSI_FOREX_EURUSD:
   delay_amount: '0'
   display_name: RSI Forex EURUSD
   market_times:
+    dst:
+      daily_open: 0s
+      daily_close: 23h59m59s
+      daily_settlement: 23h59m59s
+      trading_breaks:
+      - - 21h00m
+        - 21h05m
     partial_trading:
-      standard_open: 21h35m
+      dst_open: 21h35m
+      dst_close: 23h59m59s
+      standard_open: 22h35m
       standard_close: 23h59m59s
     standard:
       daily_open: 0s
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
-    # Trading breaks for Monday-Thursday
-    trading_breaks:
-    - - 21h00m
-      - 21h05m
+      trading_breaks:
+      - - 22h00m
+        - 22h05m
   symbol: RSI_FOREX_EURUSD
   trading_days: sun_thru_fri
-  trading_timezone: UTC
+  trading_timezone: America/New_York
 RSI_FOREX_GBPUSD:
   currency: USD
   delay_amount: '0'
   display_name: RSI Forex GBPUSD
   market_times:
+    dst:
+      daily_open: 0s
+      daily_close: 23h59m59s
+      daily_settlement: 23h59m59s
+      trading_breaks:
+      - - 21h00m
+        - 21h05m
     partial_trading:
-      standard_open: 21h35m
+      dst_open: 21h35m
+      dst_close: 23h59m59s
+      standard_open: 22h35m
       standard_close: 23h59m59s
     standard:
       daily_open: 0s
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
-    # Trading breaks for Monday-Thursday
-    trading_breaks:
-    - - 21h00m
-      - 21h05m
+      trading_breaks:
+      - - 22h00m
+        - 22h05m
   symbol: RSI_FOREX_GBPUSD
   trading_days: sun_thru_fri
-  trading_timezone: UTC
+  trading_timezone: America/New_York
 RSI_FOREX_USDJPY:
   currency: USD
   delay_amount: '0'
   display_name: RSI Forex USDJPY
   market_times:
+    dst:
+      daily_open: 0s
+      daily_close: 23h59m59s
+      daily_settlement: 23h59m59s
+      trading_breaks:
+      - - 21h00m
+        - 21h05m
     partial_trading:
-      standard_open: 22h05m
+      dst_open: 22h05m
+      dst_close: 23h59m59s
+      standard_open: 23h05m
       standard_close: 23h59m59s
     standard:
       daily_open: 0s
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
-    # Trading breaks for Monday-Thursday
-    trading_breaks:
-    - - 21h00m
-      - 21h05m
+      trading_breaks:
+      - - 22h00m
+        - 22h05m
   symbol: RSI_FOREX_USDJPY
   trading_days: sun_thru_fri
-  trading_timezone: UTC
+  trading_timezone: America/New_York
 RSI_METAL:
   delay_amount: '0'
   display_name: RSI Metal
@@ -1230,9 +1254,11 @@ RSI_METAL:
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
       trading_breaks:
-      - - 20h
-        - 22h
+      - - 19h59m
+        - 22h02m
     partial_trading:
+      dst_open: 22h05m
+      dst_close: 23h59m59s
       standard_open: 23h05m
       standard_close: 23h59m59s
     standard:
@@ -1240,8 +1266,8 @@ RSI_METAL:
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
       trading_breaks:
-      - - 21h
-        - 23h
+      - - 20h59m
+        - 23h02m
   symbol: RSI_METAL
   trading_days: sun_thru_fri
   trading_timezone: America/New_York
