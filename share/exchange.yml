@@ -1173,6 +1173,7 @@ RSI_FOREX_EURUSD:
       daily_open: 0s
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
+      friday_close: 20h55m
       trading_breaks:
       - - 21h00m
         - 21h05m
@@ -1185,6 +1186,7 @@ RSI_FOREX_EURUSD:
       daily_open: 0s
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
+      friday_close: 21h55m
       trading_breaks:
       - - 22h00m
         - 22h05m
@@ -1200,6 +1202,7 @@ RSI_FOREX_GBPUSD:
       daily_open: 0s
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
+      friday_close: 20h55m
       trading_breaks:
       - - 21h00m
         - 21h05m
@@ -1212,6 +1215,7 @@ RSI_FOREX_GBPUSD:
       daily_open: 0s
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
+      friday_close: 21h55m
       trading_breaks:
       - - 22h00m
         - 22h05m
@@ -1227,6 +1231,7 @@ RSI_FOREX_USDJPY:
       daily_open: 0s
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
+      friday_close: 20h55m
       trading_breaks:
       - - 21h00m
         - 21h05m
@@ -1239,6 +1244,7 @@ RSI_FOREX_USDJPY:
       daily_open: 0s
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
+      friday_close: 21h55m
       trading_breaks:
       - - 22h00m
         - 22h05m
@@ -1253,6 +1259,7 @@ RSI_METAL:
       daily_open: 0s
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
+      friday_close: 19h45m
       trading_breaks:
       - - 19h59m
         - 22h02m
@@ -1265,6 +1272,7 @@ RSI_METAL:
       daily_open: 0s
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
+      friday_close: 20h45m
       trading_breaks:
       - - 20h59m
         - 23h02m
