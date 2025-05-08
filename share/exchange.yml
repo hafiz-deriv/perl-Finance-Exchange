@@ -1174,9 +1174,6 @@ RSI_FOREX_EURUSD:
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
       friday_close: 20h55m
-      trading_breaks:
-      - - 21h00m
-        - 21h05m
     partial_trading:
       dst_open: 21h35m
       dst_close: 23h59m59s
@@ -1187,9 +1184,6 @@ RSI_FOREX_EURUSD:
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
       friday_close: 21h55m
-      trading_breaks:
-      - - 22h00m
-        - 22h05m
   symbol: RSI_FOREX_EURUSD
   trading_days: sun_thru_fri
   trading_timezone: America/New_York
@@ -1203,9 +1197,6 @@ RSI_FOREX_GBPUSD:
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
       friday_close: 20h55m
-      trading_breaks:
-      - - 21h00m
-        - 21h05m
     partial_trading:
       dst_open: 21h35m
       dst_close: 23h59m59s
@@ -1216,9 +1207,6 @@ RSI_FOREX_GBPUSD:
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
       friday_close: 21h55m
-      trading_breaks:
-      - - 22h00m
-        - 22h05m
   symbol: RSI_FOREX_GBPUSD
   trading_days: sun_thru_fri
   trading_timezone: America/New_York
@@ -1232,9 +1220,6 @@ RSI_FOREX_USDJPY:
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
       friday_close: 20h55m
-      trading_breaks:
-      - - 21h00m
-        - 21h05m
     partial_trading:
       dst_open: 22h05m
       dst_close: 23h59m59s
@@ -1245,9 +1230,6 @@ RSI_FOREX_USDJPY:
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
       friday_close: 21h55m
-      trading_breaks:
-      - - 22h00m
-        - 22h05m
   symbol: RSI_FOREX_USDJPY
   trading_days: sun_thru_fri
   trading_timezone: America/New_York
@@ -1260,9 +1242,6 @@ RSI_METAL:
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
       friday_close: 19h45m
-      trading_breaks:
-      - - 19h59m
-        - 22h02m
     partial_trading:
       dst_open: 22h05m
       dst_close: 23h59m59s
@@ -1273,9 +1252,6 @@ RSI_METAL:
       daily_close: 23h59m59s
       daily_settlement: 23h59m59s
       friday_close: 20h45m
-      trading_breaks:
-      - - 20h59m
-        - 23h02m
   symbol: RSI_METAL
   trading_days: sun_thru_fri
   trading_timezone: America/New_York
