@@ -162,7 +162,7 @@ BM_OTC:
 BMF:
   currency: BRL
   delay_amount: '1440'
-  display_name: Borsa de Mercadorias Future Exchange
+  display_name: Brazilian Mercantile & Futures Exchange
   market_times:
     dst:
       daily_close: 18h55m
@@ -548,7 +548,7 @@ FSE_OTC:
 HKF:
   currency: HKD
   delay_amount: '1440'
-  display_name: Hong Kong Future Exchange
+  display_name: Hong Kong Futures Exchange
   market_times:
     partial_trading:
       standard_close: 4h
@@ -639,7 +639,7 @@ ICE_LIFFE:
 IDM:
   currency: EUR
   delay_amount: '1440'
-  display_name: Borsa Italiana Future Exchange
+  display_name: Borsa Italiana Futures Exchange
   market_times:
     dst:
       daily_close: 15h40m
@@ -754,7 +754,7 @@ KSE:
       daily_close: 9h30m
       daily_open: 6h
       daily_settlement: 12h30m
-  symbol: KRX
+  symbol: KSE
   trading_days: sun_thru_thu
   trading_timezone: Asia/Kuwait
 LSE:
@@ -811,7 +811,7 @@ MICEX:
 MEFF:
   currency: EUR
   delay_amount: '1440'
-  display_name: Marid Future Exchange
+  display_name: Madrid Futures Exchange
   market_times:
     dst:
       daily_close: 18h
@@ -828,7 +828,7 @@ MEFF:
 MOF:
   currency: USD
   delay_amount: '1440'
-  display_name: Russian future Exchange
+  display_name: Russian Futures Exchange
   market_times:
     partial_trading: ~
     standard:
@@ -864,7 +864,7 @@ NASDAQ:
 NASDAQ_OTC:
   currency: USD
   delay_amount: '0'
-  display_name: NASDAQ_OTC
+  display_name: NASDAQ OTC Market
   market_times:
     dst:
       daily_close: 20h
@@ -1271,7 +1271,7 @@ RTS:
 SAS:
   currency: SAR
   delay_amount: '1440'
-  display_name: Saudi Arabic Exchange
+  display_name: Saudi Exchange
   market_times:
     partial_trading: {}
     standard:
@@ -1299,7 +1299,7 @@ SES:
 SFE:
   currency: AUD
   delay_amount: '1440'
-  display_name: Sydney Future Exchange
+  display_name: Sydney Futures Exchange
   market_times:
     dst:
       afternoon_open: 6h30m
