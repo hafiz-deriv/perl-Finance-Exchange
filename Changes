@@ -1,6 +1,7 @@
 Revision history for Finance-Exchange
 
 {{$NEXT}}
+        - Rename RSI* exchanges to TACTICAL* exchanges
 
 0.04      2025-08-22 04:29:18+00:00 UTC
         - Define trading sessions for RSI exchanges
